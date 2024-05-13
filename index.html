@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-ca611.appspot.com/o/ps.png?alt=media&token=39ebe175-b214-4294-a1d6-a33fbac97cda');
+  min-height: 100%;
+}
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Certificate</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Pratik Shinde</b></h1>
+    <p>Web Designer</p>
+    <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ca611.appspot.com/o/ps.png?alt=media&token=39ebe175-b214-4294-a1d6-a33fbac97cda" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ca611.appspot.com/o/ps.png?alt=media&token=39ebe175-b214-4294-a1d6-a33fbac97cda" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <button class="w3-button w3-light-grey w3-padding-large w3-section" onclick="window.open('https://firebasestorage.googleapis.com/v0/b/portfolio-ca611.appspot.com/o/White%20Simple%20Student%20CV%20Resume.pdf?alt=media&token=e4178b87-3015-44e6-be52-638488d0705d')">
+  <i class="fa fa-download"></i> Download Resume
+</button>
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">My Certificate</h2>
+    <hr class="w3-opacity">
+
+ <!-- Grid for photos -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-full">
+     <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ca611.appspot.com/o/image.png?alt=media&token=4f7fd344-6304-498e-840c-4d69cdfc01f8" style="width:80%">
+      <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ca611.appspot.com/o/micro.png?alt=media&token=8375997d-188c-4328-93c9-b6be9d50aa68" style="width:80%">
+<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ca611.appspot.com/o/PNG%20image.png?alt=media&token=06e24368-acb0-4f75-8716-ce6aeba93319" style="width:80%">
+<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ca611.appspot.com/o/PNG%20image%202.png?alt=media&token=ac6fa1b3-3cf1-47b3-9846-beddba4a8990" style="width:80%">
+      <!-- Add more certificate images here -->
+    </div>
+ <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>I am a Computer Science student at the Sanjay Ghodawat University. I am passionate about programming and I am always looking for new opportunities to learn and grow. I have experience in programming languages like C, C++, Java, and Python. I am also familiar with web development technologies like HTML,CSS and JAVASCRIPT.
+    </p>
+       <h3 class="w3-padding-16">My Skills</h3>
+    <p class="w3-wide">C Language</p>
+<div class="w3-light-grey">
+  <a href="https://github.com/Pratik06742/portfolio" target="_blank" style="text-decoration: none;">
+    <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:65%">65%</div>
+  </a>
+</div>
+
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-light-grey">
+<a href="https://github.com/Pratik06742/portfolio" target="_blank" style="text-decoration: none;">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:60%">60%</div>
+    </div>
+
+<p class="w3-wide">C++ Langauge</p>
+    <div class="w3-light-grey">
+<a href="https://github.com/Pratik06742/portfolio target="_blank" style="text-decoration: none;">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:52%">52%</div>
+    </div>
+
+
+    <p class="w3-wide">Cyber Security</p>
+    <div class="w3-light-grey">
+<a href="https://github.com/Pratik06742/portfolio" target="_blank" style="text-decoration: none;">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:60%">60%</div>
+    </div>
+
+
+<p class="w3-wide">Java Langauge</p>
+    <div class="w3-light-grey">
+<a href="https://github.com/Pratik06742/portfolio" target="_blank" style="text-decoration: none;"></a>
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:55%">55%</div>
+    </div><br>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">4+</span><br>
+        Skills
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">3+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">4+</span><br>
+        Certificate
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">2+</span><br>
+        Courses Done
+      </div>
+    </div>
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24">My TimeLine</h3>
+  
+    <p><span class="w3-large w3-text-black w3-margin-right">Cambridge School, Miraj</span> Secondary Education</p>
+    <p>Year:2019-2020 Percentage-80%</p><br>
+   
+    
+    <p><span class="w3-large w3-text-black w3-margin-right">Shahu Collage, Kolhapur</span> Higher Secondary Education</p>
+    <p>Year:2020-2022 Percentage-72%</p><br>
+    
+    
+    <p><span class="w3-large w3-text-black w3-margin-right">Sanjay Ghodawat University</span> CSE</p>
+    <p>Year:2022-2026</p><br>
+    
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Sangli, Maharashtra</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +91 8767578086</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: pratikshinde0642@gmail.com</p>
+    </div>
+  
+    <p>Lets get in touch. Send me a message:</p>
+     <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="fa18c427-3e28-4a85-8f24-968f93f8fa6e">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+  
+ <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+<center>
+    <a href="https://www.facebook.com/profile.php?id=100054233055337&mibextid=LQQJ4d" class="w3-hover-opacity" target="_blank"><i class="fa fa-facebook-official"></i></a> &nbsp;
+	<a href="https://www.instagram.com/_ps_0642?igsh=MWV2ZGY2bDFlYTJpbg%3D%3D&utm_source=qr" class="w3-hover-opacity" target="_blank"><i class="fa fa-instagram"></i></a> &nbsp; 
+    <a href="https://github.com/Pratik06742" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a> &nbsp;
+    <a href="https://twitter.com/Pratikshinde10265609" class="w3-hover-opacity" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a> &nbsp;
+     <a href="https://www.linkedin.com/in/pratik-shinde-363878307/" class="w3-hover-opacity" target="_blank"> <i class="fa fa-linkedin w3-hover-opacity"></i></a> &nbsp;
+</center>
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
